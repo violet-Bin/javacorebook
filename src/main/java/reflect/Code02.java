@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
  */
 public class Code02 {
 
-    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+    public static void main(String[] args) throws IllegalAccessException {
         Employee Jerry = new Employee("Jerry", 99);
         Class cls = Jerry.getClass();
         //设置单个字段

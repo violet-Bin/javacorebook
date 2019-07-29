@@ -38,4 +38,9 @@ public class Employee {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
+
+    private void raiseSalary(int byPercent) {
+        int raise = (int) salary * byPercent / 100;
+        salary += raise;
+    }
 }
